@@ -15,7 +15,7 @@ export default function Page() {
         onMouseEnter={() => scrambleRef.current?.startScramble()}
         className="px-6 py-3 bg-red-500 text-white font-bold rounded-lg hover:bg-white hover:text-red-500 transition-colors shadow-md"
       >
-        <ScrambleText ref={scrambleRef}>Read More...</ScrambleText>
+        <ScrambleText ref={scrambleRef}>Try Me...</ScrambleText>
       </button>
       </div>
       
